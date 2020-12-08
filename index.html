@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+<body>
+    
     <input type=file id=file/>
     <div id=result></div>
     
@@ -12,11 +12,9 @@
         result.innerHTML = reader.result
     })
     reader.readAsText(file, 'UTF-8')
-   
-</head>
 
-<body>
-    <div id="FileContent">Your content will appear here</div>
+ 
+    
 </body>
 
 </html>
