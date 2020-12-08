@@ -3,5 +3,17 @@
 <body>
 <h1>Hello World</h1>
 <p>yooo adhiraj</p>
+  
+<input type=file id=file/>
+<div id=result></div> 
+
+const file = document.getElementById('database').files[0]
+const result = document.getElementById('result')
+const reader = new FileReader
+reader.addEventListener('load', () => {
+    result.innerHTML = reader.result
+})
+reader.readAsText(file, 'UTF-8') 
+  
 </body>
 </html>
