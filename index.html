@@ -2,25 +2,17 @@
 <html>
 
 <head>
-    <script>
-        function readTextFile(file) {
-            var rawFile = new XMLHttpRequest();
-            rawFile.open("GET", file, false);
-            var fileDisplayArea = document.getElementById("FileContent");
-            rawFile.onreadystatechange = function () {
-                if (rawFile.readyState === 4) {
-                    if (rawFile.status === 200 || rawFile.status == 0) {
-                        var allText = rawFile.responseText;
-                        fileDisplayArea.innerText = allText;
-                    }
-                } else {
-                    fileDisplayArea.innerText = "File not supported!"
-                }
-            }
-            rawFile.send(null);
-        }
-        readTextFile("/home/pi/Resources12/database")
-    </script>
+    <input type=file id=file/>
+    <div id=result></div>
+    
+    const file = document.getElementById('file').files[0]
+    const result = document.getElementById('result')
+    const reader = new FileReader
+    reader.addEventListener('load', () => {
+        result.innerHTML = reader.result
+    })
+    reader.readAsText(file, 'UTF-8')
+   
 </head>
 
 <body>
