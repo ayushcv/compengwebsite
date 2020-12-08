@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-    <p> database.text </p> 
- 
-    
-</body>
-
-</html>
+<?php
+    $myfilename = "mytextfile.txt";
+    if(file_exists($myfilename)){
+      echo file_get_contents($myfilename);
+    }
+?>
