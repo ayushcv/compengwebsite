@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "ayush" && password === "12345") {
         alert("You have successfully logged in.");
-        window.location.replace("https://ayushcv.github.io/TEJ4MO");
+        location.replace("https://ayushcv.github.io/TEJ4MO");
     } else {
         loginErrorMsg.style.opacity = 1;
     }
