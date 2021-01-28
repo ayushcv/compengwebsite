@@ -1,11 +1,11 @@
 html {
-  height: 100%;
+  height: 10%;
 }
 
 body {
   height: 100%;
   margin: 0;
-  font-family: Helvetica, Georgia, PT Sans;
+  font-family: Helvetica, Georgia;
   display: grid;
   justify-items: center;
   align-items: center;
