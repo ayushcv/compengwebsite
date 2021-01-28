@@ -61,13 +61,11 @@ body {
 }
 
 .login-form-field {
-  width: 200%;
   border: none;
-  border-bottom: 2px solid #001f42;
-  margin-bottom: 10px;
-  border-radius: 50px;
-  outline: none;
-  padding: 0px 0px 5px 5px;
+	width: 200%;
+	height: 100%;
+  border-bottom: 5px solid #001f42;
+  margin-bottom: 30px;
 }
 
 #login-form-submit {
