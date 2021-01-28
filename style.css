@@ -5,11 +5,11 @@ html {
 body {
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Georgia, PT Sans;
   display: grid;
   justify-items: center;
   align-items: center;
-  background-color: #3a3a3a;
+  background-color: #037f9e;
 }
 
 #main-holder {
@@ -18,7 +18,7 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(73, 70, 70);
   border-radius: 7px;
   box-shadow: 0px 0px 5px 2px black;
 }
@@ -38,9 +38,9 @@ body {
   padding: 5px;
   font-size: 12px;
   font-weight: bold;
-  color: #8a0000;
-  border: 1px solid #8a0000;
-  background-color: #e58f8f;
+  color: #037f9e;
+  border: 1px solid #000000;
+  background-color: #000000;
   opacity: 0;
 }
 
@@ -56,14 +56,14 @@ body {
 }
 
 .login-form-field::placeholder {
-  color: #3a3a3a;
+  color: #747171;
 }
 
 .login-form-field {
   border: none;
-  border-bottom: 1px solid #3a3a3a;
+  border-bottom: 2px solid #001f42;
   margin-bottom: 10px;
-  border-radius: 3px;
+  border-radius: 50px;
   outline: none;
   padding: 0px 0px 5px 5px;
 }
