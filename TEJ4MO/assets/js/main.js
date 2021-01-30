@@ -1,7 +1,6 @@
 /*
-	Photon by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	The Javascript file is used to create the breakpoints, and add the animations on the page load. The scrollable button is used to 
+	navigate throught the webpage.
 */
 
 (function($) {
